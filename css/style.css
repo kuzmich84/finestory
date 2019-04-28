@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Algerian; /* Гарнитура шрифта */
+    src: url(../fonts/Algerian.ttf); /* Путь к файлу со шрифтом */
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-width: 320px;
+    color: #767676;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+h2{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: #4e4e4e;
+}
+
+.col-3{
+    background-color: #303030;
+}
+
+/*=================Header=============*/
+
+.main-header{
+
+    text-align: center;
+    height: 100vh;
+}
+
+a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color:#fff;
+    background: #3a3a3a;
+}
+
+.navbar{
+    margin-top:100px;
+    height: 115px;
+    background-color: #328e6f;
+    padding: 0px;
+}
+
+.navbar-brand {
+    font-family: Algerian, serif;
+    font-size: 30px;
+
+    padding: 0px;
+}
+
+.navbar-brand span{
+
+}
+.nav{
+    margin-top:80px;
+}
+
+/*=================Content=================*/
+
+.col-9{
+    background: url("../img/foto_main.jpg") no-repeat 100%;
+}
